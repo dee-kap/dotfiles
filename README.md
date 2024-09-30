@@ -1,3 +1,3 @@
 # Dot Files
 
-That says it all.
+I use [stow](https://www.gnu.org/software/stow/) to organize my dot files.

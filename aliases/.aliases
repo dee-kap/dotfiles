@@ -1,0 +1,16 @@
+alias e='exit'
+
+alias v='nvim'
+alias vim='nvim'
+
+alias lg='lazygit'
+alias z='zoxide'
+
+
+# Git related
+alias g='git'
+alias gl='git log --pretty=format:"%C(auto)%h %C(cyan)%an%Creset %C(yellow)%d %Creset%s %Cgreen(%cr)" --all --decorate'
+alias glg='git log --graph --pretty=format:"%C(auto)%h %C(cyan)%an%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)" --all --decorate'
+
+
+
