@@ -1,15 +1,18 @@
--- return {
---   "williamboman/mason.nvim",
---   opts = function(_, opts)
---     table.insert(opts.ensure_installed, "black")
---   end,
--- }
 return {
   "neovim/nvim-lspconfig",
   opts = {
     inlay_hints = { enabled = false },
     servers = {
-      pyright = {},
+      pyright = {
+        settings = {
+          python = {
+            analysis = {
+              typeCheckingMode = "basic",
+              diagnosticMode = "workspace",
+            },
+          },
+        },
+      },
       ruff_lsp = {
         keys = {
           {

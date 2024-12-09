@@ -1,3 +1,20 @@
 -- Autocmds are automatically loaded on the VeryLazy event
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
+-- -- Python-specific settings
+-- vim.api.nvim_create_autocmd("FileType", {
+--   pattern = "python",
+--   callback = function()
+--     vim.opt.tabstop = 4
+--     vim.opt.shiftwidth = 4
+--     vim.opt.softtabstop = 4
+--     vim.opt.expandtab = true
+--   end,
+-- })
+--
+-- vim.api.nvim_create_autocmd("BufWritePre", {
+--   pattern = "*.py",
+--   callback = function()
+--     vim.lsp.buf.format({ async = false })
+--   end,
+-- })
