@@ -16,26 +16,41 @@
 # export BG2=0xff414550
 
 ### Catppuccin
-export BLACK=0xff181926
-export WHITE=0xffcad3f5
-export RED=0xffed8796
-export GREEN=0xffa6da95
-export BLUE=0xff8aadf4
-export YELLOW=0xffeed49f
-export ORANGE=0xfff5a97f
-export MAGENTA=0xffc6a0f6
-export GREY=0xff939ab7
-export TRANSPARENT=0x00000000
-export BG0=0xff1e1e2e
-export BG1=0x603c3e4f
-export BG2=0x60494d64
+# export BLACK=0xff181926
+# export WHITE=0xffcad3f5
+# export RED=0xffed8796
+# export GREEN=0xffa6da95
+# export BLUE=0xff8aadf4
+# export YELLOW=0xffeed49f
+# export ORANGE=0xfff5a97f
+# export MAGENTA=0xffc6a0f6
+# export GREY=0xff939ab7
+# export TRANSPARENT=0x00000000
+# export BG0=0xff1e1e2e
+# export BG1=0x603c3e4f
+# export BG2=0x60494d64
+
+### Eldritch
+export BLACK=0xff414868       # TERMINAL_BLACK
+export WHITE=0xffebfafa       # FOREGROUND
+export RED=0xfff16c75         # RED
+export GREEN=0xff37f499       # GREEN
+export BLUE=0xff04d1f9        # CYAN
+export YELLOW=0xfff1fc79      # YELLOW
+export ORANGE=0xfff7c67f      # ORANGE
+export MAGENTA=0xffa48cf2     # PURPLE
+export GREY=0xff6473B7        # DARK3
+export TRANSPARENT=0x00000000 # TRANSPARENT
+export BG0=0xff212338         # BACKGROUND
+export BG1=0xff292e42         # BG_HIGHLIGHT
+export BG2=0xff323449         # CURRENTLINE
 
 # General bar colors
 export BAR_COLOR=$BG0
 export BAR_BORDER_COLOR=$BG2
 export BACKGROUND_1=$BG1
 export BACKGROUND_2=$BG2
-export ICON_COLOR=$WHITE # Color of all icons
+export ICON_COLOR=$WHITE  # Color of all icons
 export LABEL_COLOR=$WHITE # Color of all labels
 export POPUP_BACKGROUND_COLOR=$BAR_COLOR
 export POPUP_BORDER_COLOR=$WHITE

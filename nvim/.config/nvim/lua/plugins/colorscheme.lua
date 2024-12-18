@@ -1,36 +1,42 @@
 -- return {
---   { "catppuccin/nvim" },
---
---   {
---     "LazyVim/LazyVim",
---     opts = {
---       -- colorscheme = "catppuccin-macchiato",
---       colorscheme = "catppuccin-mocha",
---     },
---   },
+--   "eldritch-theme/eldritch.nvim",
+--   lazy = false,
+--   priority = 1000,
+--   opts = {},
 -- }
---
 return {
-  {
-    "folke/tokyonight.nvim",
-    opts = {
-      style = "moon",
-      on_colors = function(colors)
-        colors.border = "#7aa2f7"
-      end,
-      on_highlights = function(hl, c)
-        hl.VertSplit = { fg = c.border } -- Apply border color to splits
-      end,
-    },
-  },
+  { "catppuccin/nvim" },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-moon",
+      -- colorscheme = "catppuccin-macchiato",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
+--
+-- return {
+--   {
+--     "folke/tokyonight.nvim",
+--     opts = {
+--       style = "moon",
+--       on_colors = function(colors)
+--         colors.border = "#7aa2f7"
+--       end,
+--       on_highlights = function(hl, c)
+--         hl.VertSplit = { fg = c.border } -- Apply border color to splits
+--       end,
+--     },
+--   },
+--
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "tokyonight-moon",
+--     },
+--   },
+-- }
 
 -- return {
 --   {
