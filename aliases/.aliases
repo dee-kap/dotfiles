@@ -1,5 +1,7 @@
 alias e='exit'
 
+alias cat='bat'
+
 alias v='nvim'
 alias vim='nvim'
 

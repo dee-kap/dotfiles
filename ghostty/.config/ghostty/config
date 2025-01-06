@@ -1,0 +1,11 @@
+# ghostty config
+theme = catppuccin-mocha
+font-family = 0xProto Nerd Font Mono
+font-size = 15
+adjust-cell-height = 75%
+window-decoration = false
+cursor-color = green
+cursor-style-blink = true
+
+
+
